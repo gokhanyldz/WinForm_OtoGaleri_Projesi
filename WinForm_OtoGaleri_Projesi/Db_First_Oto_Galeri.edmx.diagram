@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="77f5dff2ead74c73b6e2d32407d456e3" Name="Diagram1">
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_Arac" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_Arac_Durumu" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_İslemler" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_Musteri" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_Personel" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Tbl_Sube" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_Arac_Tbl_Arac_Durumu" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_Arac_Tbl_Sube" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_İslemler_Tbl_Arac" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_İslemler_Tbl_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_İslemler_Tbl_Personel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbFirst_OtoGaleriModel.FK_Tbl_Personel_Tbl_Sube" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbFirst_OtoGaleriModel.Kayit" Width="1.5" PointX="7.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
